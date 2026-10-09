@@ -34,8 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buhrmi/shitcoinswap.git",
-    "directory": "packages/inertiax-viewstack"
+    "url": "git+https://github.com/buhrmi/inertiax-viewstack.git"
   },
   "peerDependencies": {
     "svelte": "^5.0.0",
