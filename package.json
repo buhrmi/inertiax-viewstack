@@ -1,0 +1,48 @@
+{
+  "name": "inertiax-viewstack",
+  "version": "0.1.0",
+  "description": "History-driven stacked navigation and modals for InertiaX + Svelte 5, powered by <Frame>.",
+  "license": "MIT",
+  "author": "Stefan Buhrmester <stefan@buhrmi.de>",
+  "type": "module",
+  "svelte": "./src/index.js",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./ViewStack.svelte": "./src/ViewStack.svelte",
+    "./Modal.svelte": "./src/Modal.svelte"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "svelte",
+    "svelte5",
+    "inertia",
+    "inertiax",
+    "modal",
+    "modal-stack",
+    "view-stack",
+    "navigation",
+    "history",
+    "router"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buhrmi/shitcoinswap.git",
+    "directory": "packages/inertiax-viewstack"
+  },
+  "peerDependencies": {
+    "svelte": "^5.0.0",
+    "inertiax-svelte": "^11.0.0",
+    "inertiax-core": "^11.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
