@@ -157,18 +157,6 @@ The components ship with scoped CSS and no framework dependency. Theme them with
 }
 ```
 
-## Development
-
-`inertiax-viewstack` lives in the [`shitcoinswap`](https://github.com/buhrmi/shitcoinswap) repo under [`packages/inertiax-viewstack`](https://github.com/buhrmi/shitcoinswap/tree/main/packages/inertiax-viewstack) and is linked into the app through Bun workspaces.
-
-```bash
-# from the repo root
-bun install
-
-# publish (from this folder)
-npm publish
-```
-
 ## License
 
-[MIT](./LICENSE) © Stefan Buhrmester
+[MIT](./LICENSE)
